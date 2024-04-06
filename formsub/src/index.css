@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300&display=swap');
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins';
+  background-color: #eee;
+
+}
+
+* {
+  box-sizing: border-box;
+
+}
+
+form {
+  display: block;
+  background-color: #DFECFF;
+  box-shadow: 2px 2px 3px 3px #448cf9;
+  margin: 40px auto;
+  max-width: 600px;
+  max-height: 1200px;
+  padding: 25px 40px;
+  border-radius: 8px;
+
+
+}
+
+form input,
+textarea {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 7px auto;
+  padding: 3px;
+  font-family: 'poppins';
+  background-color: #fff;
+  border: 1px solid rgb(168, 167, 167);
+  border-radius: 6px;
+}
+
+form span {
+  color: #0964EC;
+
+}
+
+form button {
+  height: 30px;
+  width: 80px;
+  align-items: center;
+  border: none;
+  background-color: #0964EC;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 6px;
+
+
+
+}
+
+select {
+  margin: 4px;
+  padding: 3px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+
+
+}
